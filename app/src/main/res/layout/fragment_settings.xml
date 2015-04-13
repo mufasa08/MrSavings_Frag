@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muusuko.mrsavings_frag.Settings">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@color/background_material_dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Settings"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="38dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voice 2"
+            android:id="@+id/button2"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_alignTop="@+id/button3"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voice 3"
+            android:id="@+id/button3"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_marginTop="44dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Change  Voice"
+            android:id="@+id/textView6"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="38dp"
+            android:layout_above="@+id/button3"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Factory Reset Everything"
+            android:id="@+id/button4"
+            android:background="@drawable/round_button_red"
+            android:textSize="20dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignRight="@+id/button3"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_marginTop="96dp"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Voice 1"
+            android:id="@+id/button"
+            android:background="@drawable/round_button"
+            android:textColor="@android:color/white"
+            android:layout_alignTop="@+id/button2"
+            android:layout_toLeftOf="@+id/textView2"
+            android:layout_toStartOf="@+id/textView2" />
+
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="120"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+
+    <item
+    android:id="@+id/deduct_money"
+        android:icon="@drawable/minusicon"
+    android:title="@string/deduct_money"
+    app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/add_money"
+        android:icon="@drawable/addicon"
+        android:orderInCategory="110"
+        android:title="@string/add_money"
+        app:showAsAction="ifRoom" />
+
+</menu>
